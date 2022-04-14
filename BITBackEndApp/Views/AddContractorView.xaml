@@ -1,0 +1,92 @@
+﻿<Page x:Class="BITBackEndApp.Views.AddContractorView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BITBackEndApp.Views"
+      mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="800" Title="AddContractorView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="MintCream" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="300" />
+                </Grid.ColumnDefinitions>
+                <Label Margin="10,0,0,0" Content="Add a new Contractor" FontSize="32" Foreground="DeepSkyBlue" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Background="MintCream">
+            <Grid Name="containerCanvas">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="5" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <Label Content="First Name : " Grid.Row="0"  Grid.Column="0" ></Label>
+                <TextBox Text="{Binding Contractor.FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"   ToolTip="{Binding Contractor.ErrorCollection[FirstName]}" Grid.Row ="0" Grid.Column="1" />
+                <Label Content="Last Name : " Grid.Row="2"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="2" Grid.Column="1" Text="{Binding Contractor.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Contractor.ErrorCollection[LastName]}"/>
+                <Label Content="Street : " Grid.Row="4"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="4" Grid.Column="1" Text="{Binding Contractor.Street, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Contractor.ErrorCollection[Street]}"/>
+                <Label Content="Suburb : " Grid.Row="6"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="6" Grid.Column="1" Text="{Binding Contractor.Suburb, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[Suburb]}" />
+                <Label Content="Postcode : " Grid.Row="8"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="8" Grid.Column="1" Text="{Binding Contractor.PostCode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[PostCode]}" />
+                <Label Content="State : " Grid.Row="0"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="0" Grid.Column="3" Text="{Binding Contractor.State, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[Phone]}" />
+                <Label Content="Phone : " Grid.Row="2"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="2" Grid.Column="3" Text="{Binding Contractor.Phone, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[Phone]}" />
+                <Label Content="Email : " Grid.Row="4"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="4" Grid.Column="3" Text="{Binding Contractor.Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[Email]}"  />
+                <Label Content="Date of Birth (dd/mm/yyyy) : " Grid.Row="6"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="6" Grid.Column="3" Text="{Binding Contractor.DOB, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <Label Content="Password : " Grid.Row="8"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="8" Grid.Column="3" Text="{Binding Contractor.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  ToolTip="{Binding Contractor.ErrorCollection[Password]}"  />
+
+
+                <StackPanel Grid.Row="10"  Grid.ColumnSpan="4" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="41*"/>
+                            <RowDefinition Height="40*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Button  Command="{Binding AddCommand}" x:Name="btnAddNewCustomer" Margin="5,5,5,0" 
+                                 FontSize="20" Content="Submit"                                  
+                                 Height="31" VerticalAlignment="Top" Background="LightBlue" />
+                        <Button  x:Name="btnClear" Margin="5,5,5,5" FontSize="20" 
+                                 Content="Clear" Grid.Column="1" Click="btnClear_Click"  Background="LightBlue" />
+                        <Button  x:Name="btnBackToCustomerManagement" Margin="5,5,5,5" 
+                                 FontSize="20" 
+                                 Content="Cancel" Grid.Column="2" Click="btnBackToCustomerManagement_Click"  Background="LightBlue" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

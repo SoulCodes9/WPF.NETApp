@@ -1,0 +1,95 @@
+﻿<Page x:Class="BITBackEndApp.Views.AddClientView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BITBackEndApp.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddClientView">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="MintCream" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="300" />
+                </Grid.ColumnDefinitions>
+                <Label Margin="10,0,0,0" Content="Add a new Client" FontSize="32" Foreground="DeepSkyBlue" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Background="MintCream">
+            <Grid Name="containerCanvas">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="5" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <Label Content="First Name : " Grid.Row="0"  Grid.Column="0" ></Label>
+                <TextBox Text="{Binding Client.FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Grid.Row ="0" Grid.Column="1"  ToolTip="{Binding Client.ErrorCollection[FirstName]}" />
+                <Label Content="Last Name : " Grid.Row="2"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="2" Grid.Column="1" Text="{Binding Client.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[LastName]}"/>
+                <Label Content="Street : " Grid.Row="4"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="4" Grid.Column="1" Text="{Binding Client.Street, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[Street]}" />
+                <Label Content="Suburb : " Grid.Row="6"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="6" Grid.Column="1" Text="{Binding Client.Suburb, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[Suburb]}" />
+                <Label Content="Postcode : " Grid.Row="8"  Grid.Column="0" ></Label>
+                <TextBox  Grid.Row ="8" Grid.Column="1" Text="{Binding Client.PostCode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[PostCode]}" />
+                <Label Content="State : " Grid.Row="0"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="0" Grid.Column="3" Text="{Binding Client.State, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[State]}" />
+                <Label Content="Phone : " Grid.Row="2"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="2" Grid.Column="3" Text="{Binding Client.Phone, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[Phone]}" />
+                <Label Content="Email : " Grid.Row="4"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="4" Grid.Column="3" Text="{Binding Client.Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[Email]}" />
+                <Label Content="Date of Birth (dd/mm/yyyy) : " Grid.Row="6"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="6" Grid.Column="3" Text="{Binding Client.DOB, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <Label Content="Password : " Grid.Row="8"  Grid.Column="2" ></Label>
+                <TextBox  Grid.Row ="8" Grid.Column="3" Text="{Binding Client.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding Client.ErrorCollection[Password]}"/>
+
+
+                <StackPanel Grid.Row="10"  Grid.ColumnSpan="4" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="41*"/>
+                            <RowDefinition Height="40*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Button  Command="{Binding AddCommand}" x:Name="btnAddNewCustomer" Margin="5,5,5,0" 
+                                 FontSize="20" Content="Submit"                                  
+                                 Height="31" VerticalAlignment="Top" Background="LightBlue" />
+                        <Button  x:Name="btnClear" Margin="5,5,5,5" FontSize="20" 
+                                 Content="Clear" Grid.Column="1" Click="btnClear_Click"  Background="LightBlue" />
+                        <Button  x:Name="btnBackToCustomerManagement" Margin="5,5,5,5" 
+                                 FontSize="20" 
+                                 Content="Cancel" Grid.Column="2" Click="btnBackToCustomerManagement_Click"  Background="LightBlue" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

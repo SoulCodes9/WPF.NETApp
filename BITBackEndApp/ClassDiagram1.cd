@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BITBackEndApp.Models.ActiveSkills" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ActiveSkills.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.AvailableRequest" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIgAEAIAAAIAAAEAAAQAAAIAAgAAABIAAAAAAAAAA=</HashCode>
+      <FileName>Models\AvailableRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.AvailableRequests" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AvailableRequests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEUAgEAECCgAAQgAqAEAKAAAgAAAAAACAgIApCAAABk=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BITBackEndApp.Models.Clients" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Clients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Contractor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEUAgEAECCgAYwgAOAEAKAAAgAAAAAACAgIApCAAABk=</HashCode>
+      <FileName>Models\Contractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BITBackEndApp.Models.Contractors" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contractors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Coordinator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEUAgEAECCgAAQgAKAEAaAAAgAAAAAACAwIApCAAABk=</HashCode>
+      <FileName>Models\Coordinator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BITBackEndApp.Models.Coordinators" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Coordinators.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.PreferredSkill" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAMAAAAAAAgABAAAAAAABAgAAAAAA=</HashCode>
+      <FileName>Models\PreferredSkill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BITBackEndApp.Models.PreferredSkills" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PreferredSkills.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Request" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAJhAIEAAAAAAwAsgEATAAAgABCRUAGEgJBhCAAAAE=</HashCode>
+      <FileName>Models\Request.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BITBackEndApp.Models.Requests" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Requests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Skill" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAAAAIAAAAAAAgABAAAAgAAAQgAAAAAA=</HashCode>
+      <FileName>Models\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BITBackEndApp.Models.Skills" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Skills.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

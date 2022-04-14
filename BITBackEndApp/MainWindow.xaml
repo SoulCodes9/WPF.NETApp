@@ -1,0 +1,46 @@
+﻿<Window x:Class="BITBackEndApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BITBackEndApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <!--First row Index = 0-->
+            <RowDefinition Height="*"/>
+            <!--Second row Index = 1-->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Background="White">
+            <Image Source="/images/bitI-logo-unbit.png" Height="81" Margin="10,0" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Background="Beige">
+            <!--Client Button-->
+            <Button Foreground="Black" Background="LightBlue" x:Name="btnClient" Height="50" Content="Client Management" FontSize="16" Click="btnClient_Click"></Button>
+            <!--Contractor Button-->
+            <Button Foreground="Black" Background="LightBlue" x:Name="btnContractor" Height="50" Content="Contractor Mangement" FontSize="16" Click="btnContractor_Click"></Button>
+            <!--Employee Button-->
+            <Button Foreground="Black" Background="LightBlue" x:Name="btnEmployee" Height="50" Content="Employee Mangement" FontSize="16" Click="btnEmployee_Click"></Button>
+            <!--Requests-->
+            <Button Foreground="Black" Background="LightBlue" x:Name="btnRequests" Height="50" Content="Request Mangement" FontSize="16" Click="btnRequests_Click" ></Button>
+            <Button Foreground="Black" Background="LightBlue" x:Name="btnSkills" Height="50" Content="Skill Mangement" FontSize="16" Click="btnSkills_Click" ></Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" Background="Beige">
+            <TextBlock x:Name="companyName" Text="BIT Services Manager" Foreground="DeepSkyBlue" FontSize="32" Margin="10"/>
+            <Button x:Name="btnLogout" Background="LightBlue" Content="Logout" Width="80" Height="35" Margin="50,0,0,0" Click="btnLogout_Click"/>
+        </StackPanel>
+
+        <Frame x:Name="contentFrame" Grid.Row="1" Grid.Column="1"/>
+
+    </Grid>
+</Window>

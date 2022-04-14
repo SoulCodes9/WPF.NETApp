@@ -1,0 +1,20 @@
+﻿BITBackEndApp
+
+
+exe
+C#
+.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\
+BITBackEndApp
+none
+false
+DEBUG;TRACE
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\App.xaml
+11-1426230095
+1-2138471434
+431036720035
+211236043572
+MainWindow.xaml;Views\AddClientView.xaml;Views\AddContractorView.xaml;Views\AddCoordinatorView.xaml;Views\AddRequestView.xaml;Views\ClientManagement.xaml;Views\ContractorManagement.xaml;Views\CoordinatorManagement.xaml;Views\Login.xaml;Views\RequestManagement.xaml;Views\SkillsView.xaml;
+
+False
+

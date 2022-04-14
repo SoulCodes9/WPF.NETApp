@@ -1,0 +1,59 @@
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csprojAssemblyReference.cache
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\MainWindow.g.cs
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\App.g.cs
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp_MarkupCompile.cache
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp_MarkupCompile.lref
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.exe.config
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.exe
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.pdb
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\MainWindow.baml
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.g.resources
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.Properties.Resources.resources
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csproj.GenerateResource.cache
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csproj.CoreCompileInputs.cache
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.exe
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.pdb
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ClientManagement.g.cs
+E:\Diploma of Software Development\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ClientManagement.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.exe.config
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.exe
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\BITBackEndApp.pdb
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\MainWindow.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddClientView.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddContractorView.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddCoordinatorView.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddRequestView.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ClientManagement.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ContractorManagement.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\CoordinatorManagement.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\Login.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\RequestManagement.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\SkillsView.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\App.g.cs
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp_MarkupCompile.cache
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp_MarkupCompile.lref
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\MainWindow.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddClientView.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddContractorView.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddCoordinatorView.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\AddRequestView.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ClientManagement.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\ContractorManagement.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\CoordinatorManagement.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\Login.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\RequestManagement.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\Views\SkillsView.baml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.g.resources
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.Properties.Resources.resources
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csproj.GenerateResource.cache
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csproj.CoreCompileInputs.cache
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.exe
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.pdb
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csprojAssemblyReference.cache
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\log4net.dll
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\NLog.dll
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\log4net.xml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\NLog.xml
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp.csproj.CopyComplete
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\bin\Debug\NLog.config
+E:\Dip Soft Dev\Project\MAJOR - BIT Backend WPF App\BITBackEndApp\BITBackEndApp\obj\Debug\BITBackEndApp_Content.g.cs
